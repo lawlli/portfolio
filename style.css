@@ -1,0 +1,40 @@
+.bannerBgImage{
+  height: 100vh;
+  background:url("PIC2.jpg");
+  background-size: cover;
+  position:relative;
+}
+.bannerText{
+  text-align: top center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:beige;
+}
+.bannerTitle{
+  font-size: 4rem;
+
+}
+.banneresc{
+  font-size: 3rem;
+}
+.card{
+  cursor:pointer;
+}
+.card:hover{
+  background-color: palevioletred;
+  border: 2px solid yellowgreen;
+}
+.bIcon{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+
+}
+.img-fluid:hover{
+  border: 3px solid black;
+}
+.card-img-top{
+  height: 250px;
+}
